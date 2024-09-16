@@ -1,0 +1,44 @@
+NOTE: try
+
+
+Epoch 1: {'loss': 0.2541135251522064, 'accuracy': 0.9274500012397766, 'val_loss': 0.13300307095050812, 'val_accuracy': 0.9570000171661377}
+
+Epoch 2: {'loss': 0.1123393252491951, 'accuracy': 0.9663666486740112, 'val_loss': 0.09815719723701477, 'val_accuracy': 0.9696999788284302}
+
+Epoch 3: {'loss': 0.0770663470029831, 'accuracy': 0.9766666889190674, 'val_loss': 0.09015237540006638, 'val_accuracy': 0.9721999764442444}
+
+Epoch 4: {'loss': 0.05945119261741638, 'accuracy': 0.9815999865531921, 'val_loss': 0.0741041898727417, 'val_accuracy': 0.9753000140190125}
+
+Epoch 5: {'loss': 0.04332543909549713, 'accuracy': 0.9866333603858948, 'val_loss': 0.0794558897614479, 'val_accuracy': 0.9750999808311462}
+
+
+
+
+HYPERPARAMETERS
+Model Name: sequential_19
+Loss Weights: {0: 1.0, 1: 2.0, 2: 1.0, 3: 2.0, 4: 2.0}
+Epochs: 10
+Batch Size: 10
+Image Size: (224, 224)
+Number of Unfrozen Layers: 9
+Seed: 1337
+Validation Split: 0.2
+Learning Rate: 0.0001
+Learning Rate Drop: 0.1
+Intervals between Learning Rate Drops: 11
+
+
+SUMMARY
+Model: "sequential_19"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_38 (Dense)            (None, 128)               100480    
+                                                                 
+ dense_39 (Dense)            (None, 10)                1290      
+                                                                 
+=================================================================
+Total params: 101770 (397.54 KB)
+Trainable params: 101770 (397.54 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
